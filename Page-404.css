@@ -1,0 +1,58 @@
+body{
+
+
+    background: url(blood.jpg) no-repeat center fixed;
+    background-size: 100%;
+    height: 100vh;
+    font-family: 'Rock Salt', cursive;
+    margin:0px;
+}
+.lost{
+    align-items: flex-end;
+    text
+}
+a{
+    text-decoration: none;
+    color:#890000;
+    font-size: 400%;
+    margin-left: 150px;
+    opacity:0;;
+    animation: anim 1s linear forwards 2s;
+}
+@-moz-keyframes anim {
+    0%  {opacity:0;}
+    100% {opacity:1;}
+}
+@-webkit-keyframes anim {
+    0%  {opacity:0;}
+    100% {opacity:1;}
+}
+@-o-keyframes anim {
+    0%  {opacity:0;}
+    100% {opacity:1;}
+}
+@-ms-keyframes anim {
+    0%  {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes anim {
+    0%  {opacity:0;}
+    100% {opacity:1;}
+}
+
+h1{
+    color:#890000;
+    position: center;
+    margin-left: 100px;
+    margin-top: 150px;
+
+}
+div{
+    position: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
